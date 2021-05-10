@@ -19,7 +19,7 @@ class MyCounterState extends State<MyCounter> {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Text("countes es "),
+        Text("Veces: "),
         Text(
           "$counter",
           style: TextStyle(
